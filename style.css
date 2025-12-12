@@ -61,3 +61,10 @@ section {
     margin: 5px 0;
   }
 }
+.project-card img {
+  width: 100%;
+  max-width: 250px; /* 每張圖片最大寬度 */
+  height: auto;     /* 等比例縮放 */
+  border-radius: 8px; /* 圓角 */
+  margin-top: 8px; 
+}
