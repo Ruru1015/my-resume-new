@@ -68,3 +68,24 @@ section {
   border-radius: 8px; /* 圓角 */
   margin-top: 8px; 
 }
+/* Skills Tags 版本 */
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-tag {
+  background: #f0f0f0;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+.skill-tag:hover {
+  background: #dcdcdc;
+  transform: scale(1.05);
+}
